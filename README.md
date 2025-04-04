@@ -14,5 +14,20 @@
 
 **Example-based prompts** provide an example for the type of output desired. ▪ Example: “One example of preventing effects of global warming on health care is to ‘Monitor emerging and re-emerging diseases that may be influenced by changing climate conditions.’ Provide more example on these grounds to reduce the effect of global warming on health care.”
 
+**Here is an example:**
+completion = client.chat.completions.create(
+  model="gpt-4o-mini",
+  store=True,
+  messages=[
+    {"role": "user", "content": "write a brief summary about the effects of high inflation on economy "}
+  ]
+)
+#print(completion.choices[0].message);
+#Extract and format the response:
+narrative = completion.choices[0].message.content
+#formatting
+narrative.replace('\n', ' ')
+
+
 **Huging Face**
 **We also use hugging face and analyze a dataset to get description and prediction**
