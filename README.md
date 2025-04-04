@@ -64,3 +64,7 @@ narrative.replace('\n', ' ')
 
 
 ##Practice Fine-Tuning Diffusion Models
+
+
+## Generating the Text Narrative from Your Data
+
