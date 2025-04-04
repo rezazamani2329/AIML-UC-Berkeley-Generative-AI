@@ -61,3 +61,6 @@ narrative = chat_completion.choices[0].message.content
 narrative.replace('\n', ' ')
      
 "To analyze the average sales for the top 10 cities, we need to first extract the sales data for each city from the given list. Then, we can calculate the average sales for each city and finally determine the average sales for the top 10 cities.  Here are the sales data for the top 10 cities: 1. City 1: 25.5000 2. City 2: 2729.9860 3. City 3: 5519.5700 4. City 4: 3773.0628 5. City 5: 20214.5320 6. City 6: 17197.8400 7. City 7: 11656.4780 8. City 8: 9063.4960 9. City 9: 7452.9960 10. City 10: 64504.7604  Now, let's calculate the average sales for the top 10 cities:  Total sales = 25.5000 + 2729.9860 + 5519.5700 + 3773.0628 + 20214.5320 + 17197.8400 + 11656.4780 + 9063.4960 + 7452.9960 + 64504.7604 = 144538.2212  Average sales = Total sales / Number of cities Average sales = 144538.2212 / 10 = 14453.82212  Therefore, the average sales for the top 10 cities is $14,453.82."
+
+
+##Practice Fine-Tuning Diffusion Models
