@@ -63,8 +63,32 @@ narrative.replace('\n', ' ')
 "To analyze the average sales for the top 10 cities, we need to first extract the sales data for each city from the given list. Then, we can calculate the average sales for each city and finally determine the average sales for the top 10 cities.  Here are the sales data for the top 10 cities: 1. City 1: 25.5000 2. City 2: 2729.9860 3. City 3: 5519.5700 4. City 4: 3773.0628 5. City 5: 20214.5320 6. City 6: 17197.8400 7. City 7: 11656.4780 8. City 8: 9063.4960 9. City 9: 7452.9960 10. City 10: 64504.7604  Now, let's calculate the average sales for the top 10 cities:  Total sales = 25.5000 + 2729.9860 + 5519.5700 + 3773.0628 + 20214.5320 + 17197.8400 + 11656.4780 + 9063.4960 + 7452.9960 + 64504.7604 = 144538.2212  Average sales = Total sales / Number of cities Average sales = 144538.2212 / 10 = 14453.82212  Therefore, the average sales for the top 10 cities is $14,453.82."
 
 
-##Practice Fine-Tuning Diffusion Models
+### Practice Fine-Tuning Diffusion Models
 
 
 ## Generating the Text Narrative from Your Data
+using a dataset that contains list of video games with global sales greater than 100,000 copies. The fields in this dataset include:
+
+Rank: The ranking of overall sales
+
+Name: The name of the video game
+
+Platform: The platform of the games release (i.e. PC,PS4, etc.)
+
+Year: The year of the game's release
+
+Genre: The genre of the game
+
+Publisher: The publisher of the game
+
+NA_Sales: Sales in North America (in millions)
+
+EU_Sales: Sales in Europe (in millions)
+
+JP_Sales: Sales in Japan (in millions)
+
+Other_Sales: Sales in the rest of the world (in millions)
+
+Global_Sales: Total worldwide sales.
+
 
