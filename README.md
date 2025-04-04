@@ -92,3 +92,17 @@ Other_Sales: Sales in the rest of the world (in millions)
 Global_Sales: Total worldwide sales.
 
 
+ generate a narrative based on the data in the dataframe using OpenAI.
+
+Complete the code below using the instructions below:
+
+Use the chat.completions.create() method on the client object to send a chat request and receive a response.
+Inside the chat.completions.create() method, set the parameter messages to defines the conversation history or prompt that will be sent to the model equal to {"role": "user", "content":  f"Analyze the following data: {data_object['data']}"}.
+Inside the chat.completions.create() method, set the parameter model equal to "llama3-8b-8192".
+Assign this object to the chat_completion variable below.
+
+Once you are done, run the code cell to visualize the narrative.
+
+Lastly, ensure that your narrative is formatted correctly.
+
+
