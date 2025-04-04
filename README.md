@@ -13,3 +13,6 @@
 **Completion prompts** provide a partial question for AI to complete. ▪ Example: “The effect of global warming on health care can be addressed by the following steps…”
 
 **Example-based prompts** provide an example for the type of output desired. ▪ Example: “One example of preventing effects of global warming on health care is to ‘Monitor emerging and re-emerging diseases that may be influenced by changing climate conditions.’ Provide more example on these grounds to reduce the effect of global warming on health care.”
+
+**Huging Face**
+**We also use hugging face and analyze a dataset to get description and prediction**
