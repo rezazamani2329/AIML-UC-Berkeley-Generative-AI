@@ -28,6 +28,23 @@ narrative = completion.choices[0].message.content
 #formatting
 narrative.replace('\n', ' ')
 
+### Analyze Effectiveness for Prompt Instructional:
+
+### Relevance:
+
+The response address the prompt completely and correctly, and then it has high level of relevance.
+
+### Coherence:
+
+Response has logical structure and easy to understand. For someone who has knowledge in economics, this answer is very direct and easy to understand. Therefore, it has high level of coherence.
+
+### Creativity:
+
+This answer covers various dimensions of the effect on economy. At first focused on purchase power, then to uncertainty, then to income and stability. Then it has high level of creativity too.
+
+### Accuracy:
+
+Information provided are correct, and then its accuracy is high too.
 
 ### **Huging Face**
 **We also use hugging face and analyze a dataset to get description and prediction**
